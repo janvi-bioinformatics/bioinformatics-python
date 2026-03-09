@@ -6,3 +6,4 @@ Beginner bioinformatics tools written in Python
 ├── dna_to_rna.py
 ├── reverse_complement.py
 └── atg_finder.py
+└── dna_to_protein.py
