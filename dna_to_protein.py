@@ -20,6 +20,9 @@ else:
     for i in range(start, len(dna)-2, 3):
         codon = dna[i:i+3]
 
+        if codon in ["TAA","TAG","TGA"]:
+            break
+
         if codon in codon_table:
             protein += codon_table[codon]
         else:
